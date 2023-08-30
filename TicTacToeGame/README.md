@@ -1,1 +1,1 @@
-The start of my TicaTacToe game
+The start of my TicTacToe game
