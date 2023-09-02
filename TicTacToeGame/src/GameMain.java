@@ -149,8 +149,8 @@ public class GameMain extends JPanel implements MouseListener{
 	
 	
 	
-		/** Event handler for the mouse click on the JPanel.  If selected cell is valid and Empty then current player is added to cell is added to cell content.
-		 *  UpdateGame is called which will call the methods to check for winner or Draw.  If non the GameState remains playing.
+		/** Event handler for the mouse click on the JPanel.  If selected cell is valid and Empty then current player is added to cell content.
+		 *  UpdateGame is called which will call the methods to check for winner or Draw.  If not the GameState remains playing.
 		 *  If win or Draw then call is made to method that resets the game board.  Finally a call is made to refresh the canvas so that new symbol appears*/
 	 
 	public void mouseClicked(MouseEvent e) {
